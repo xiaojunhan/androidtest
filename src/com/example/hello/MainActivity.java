@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 	}
 
 	public void sendMessage(View view) {
-	    System.out.println("test=================");
+	    System.out.println("test================");
 	    AlertDialog dialog = new AlertDialog.Builder(view.getContext())
 	     .create();
 	    dialog.setMessage("hello world ,晓军中文测试 ");
